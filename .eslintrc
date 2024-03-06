@@ -8,10 +8,13 @@
           "jsx": true,
           "modules": true,
           "experimentalObjectRestSpread": true
-      }
+      },
+      "babelOptions": {
+        "presets": ["@babel/preset-react"]
+     },
   },
   "plugins": [
-      "react", "jsx"
+      "react"
   ],
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "rules": {
