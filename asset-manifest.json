@@ -1,13 +1,35 @@
 {
   "files": {
-    "main.css": "./static/css/main.f855e6bc.css",
-    "main.js": "./static/js/main.9af38239.js",
+    "main.css": "./static/css/main.01f1f143.css",
+    "main.js": "./static/js/main.141cdd51.js",
+    "static/media/FuturaPT-DemiObl.ttf": "./static/media/FuturaPT-DemiObl.81bcbf3e6b14134bdfe5.ttf",
+    "static/media/FuturaPT-LightObl.ttf": "./static/media/FuturaPT-LightObl.3ededb4d1e2635a6081f.ttf",
+    "static/media/FuturaPT-BookObl.ttf": "./static/media/FuturaPT-BookObl.8625e1880022bc8a080c.ttf",
+    "static/media/FuturaPT-ExtraBold.ttf": "./static/media/FuturaPT-ExtraBold.3b1f0d985f3a242b6a56.ttf",
+    "static/media/FuturaPT-MediumObl.ttf": "./static/media/FuturaPT-MediumObl.21d08164f47a2c1208f1.ttf",
+    "static/media/FuturaPT-ExtraBoldObl.ttf": "./static/media/FuturaPT-ExtraBoldObl.4cd5ff498b3127a5c45d.ttf",
+    "static/media/FuturaPT-HeavyObl.ttf": "./static/media/FuturaPT-HeavyObl.7418c6a26469f20de159.ttf",
+    "static/media/FuturaPTCond-BoldObl.ttf": "./static/media/FuturaPTCond-BoldObl.8bb51575b534c35cd563.ttf",
+    "static/media/FuturaPT-Bold.ttf": "./static/media/FuturaPT-Bold.30a810fad83f1237882b.ttf",
+    "static/media/FuturaPT-BoldObl.ttf": "./static/media/FuturaPT-BoldObl.d50a2015ce7603594603.ttf",
+    "static/media/FuturaPTCond-ExtraBoldObl.ttf": "./static/media/FuturaPTCond-ExtraBoldObl.81803d41b83e5706e8a5.ttf",
+    "static/media/FuturaPTCond-MediumObl.ttf": "./static/media/FuturaPTCond-MediumObl.042cb2cb0bc7fa4972cf.ttf",
+    "static/media/FuturaPTCond-BookObl.ttf": "./static/media/FuturaPTCond-BookObl.2cd80cc9d84626fd7f91.ttf",
+    "static/media/FuturaPTCond-Medium.ttf": "./static/media/FuturaPTCond-Medium.00e4a2200c3e5ae71d67.ttf",
+    "static/media/FuturaPT-Medium.ttf": "./static/media/FuturaPT-Medium.4ab635fb83b15f9e3627.ttf",
+    "static/media/FuturaPT-Heavy.ttf": "./static/media/FuturaPT-Heavy.cc2e37d3c134dc895e08.ttf",
+    "static/media/FuturaPT-Demi.ttf": "./static/media/FuturaPT-Demi.626ca5d4172bb348ed1a.ttf",
+    "static/media/FuturaPT-Light.ttf": "./static/media/FuturaPT-Light.ba102592d3130f78636b.ttf",
+    "static/media/FuturaPTCond-ExtraBold.ttf": "./static/media/FuturaPTCond-ExtraBold.ec57e7c5e9f3e8bff00c.ttf",
+    "static/media/FuturaPTCond-Book.ttf": "./static/media/FuturaPTCond-Book.6f802bf60c545304b09e.ttf",
+    "static/media/FuturaPT-Book.ttf": "./static/media/FuturaPT-Book.16ebcf48c36cedf12d82.ttf",
+    "static/media/FuturaPTCond-Bold.ttf": "./static/media/FuturaPTCond-Bold.f8addf39fd173dd36f9f.ttf",
     "index.html": "./index.html",
-    "main.f855e6bc.css.map": "./static/css/main.f855e6bc.css.map",
-    "main.9af38239.js.map": "./static/js/main.9af38239.js.map"
+    "main.01f1f143.css.map": "./static/css/main.01f1f143.css.map",
+    "main.141cdd51.js.map": "./static/js/main.141cdd51.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.9af38239.js"
+    "static/css/main.01f1f143.css",
+    "static/js/main.141cdd51.js"
   ]
 }
