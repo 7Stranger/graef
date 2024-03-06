@@ -1,11 +1,11 @@
-import './App.css';
+import React from 'react';
+import './App.scss';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        GRAEF
-      </header>
+        <Navbar/>
     </div>
   );
 }

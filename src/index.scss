@@ -1,0 +1,240 @@
+@import './styles/mixins.scss';
+
+@font-face {
+  font-family: 'Futura Bold';
+  src: url('./assets/fonts/futura/FuturaPT-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Heavy';
+  src: url('./assets/fonts/futura/FuturaPT-Heavy.ttf');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Demi Obl';
+  src: url('./assets/fonts/futura/FuturaPT-DemiObl.ttf');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Cond Extra';
+  src: url('./assets/fonts/futura/FuturaPTCond-ExtraBoldObl.ttf');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Cond Book';
+  src: url('./assets/fonts/futura/FuturaPTCond-Book.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Light Obl';
+  src: url('./assets/fonts/futura/FuturaPT-LightObl.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Book';
+  src: url('./assets/fonts/futura/FuturaPT-BookObl.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Heavy Obl';
+  src: url('./assets/fonts/futura/FuturaPT-HeavyObl.ttf');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Cond Obl';
+  src: url('./assets/fonts/futura/FuturaPTCond-BoldObl.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Demi';
+  src: url('./assets/fonts/futura/FuturaPT-Demi.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Cond Book Obl';
+  src: url('./assets/fonts/futura/FuturaPTCond-BookObl.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Extra';
+  src: url('./assets/fonts/futura/FuturaPT-ExtraBold.ttf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Cond Medium';
+  src: url('./assets/fonts/futura/FuturaPTCond-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Medium';
+  src: url('./assets/fonts/futura/FuturaPT-Medium.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Cond Extra';
+  src: url('./assets/fonts/futura/FuturaPTCond-ExtraBold.ttf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Medium Obl';
+  src: url('./assets/fonts/futura/FuturaPT-MediumObl.ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Cond Bold';
+  src: url('./assets/fonts/futura/FuturaPTCond-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Bold Obl';
+  src: url('./assets/fonts/futura/FuturaPT-BoldObl.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Book';
+  src: url('./assets/fonts/futura/FuturaPT-Book.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Light';
+  src: url('./assets/fonts/futura/FuturaPT-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Cond Medium Obl';
+  src: url('./assets/fonts/futura/FuturaPTCond-MediumObl.ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Futura Extra Bold Obl';
+  src: url('./assets/fonts/futura/FuturaPT-ExtraBoldObl.ttf');
+  font-weight: 800;
+  font-style: italic;
+}
+
+:root {
+  --spanish-grey: #969696;
+  --light-grey: #edecec;
+  --background-white: #fff;
+  --logo-color: #003b74;
+  --text-color: #2f2f2f;
+  --cultured: #f6f6f6;
+  --black: #151515;
+  --eerie-black: #1b1b1b;
+  --black-olive: #383f3e;
+  --gradient: linear-gradient(to right, #3fe8ab, #78cdcd);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-size: inherit;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  line-height: 1.5;
+  font-family: 'Futura Medium';
+  color: var(--text-color);
+  background-color: var(--background-white);
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Futura Bold';
+  color: var(--text-color);
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 5rem;
+
+  @include respond(tab-land) {
+    padding-inline: 1.5rem;
+  }
+
+  @include respond(phone) {
+    padding-inline: 0.8rem;
+  }
+}
+
+.btn {
+  background: var(--gradient);
+  padding: 0.6rem 1.2rem;
+  color: var(--black) !important;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+
+  &:hover {
+    border-color: red;
+    background: transparent;
+    color: var(--cultured) !important;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
