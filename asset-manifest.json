@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.01f1f143.css",
-    "main.js": "./static/js/main.141cdd51.js",
+    "main.css": "./static/css/main.59cf65fa.css",
+    "main.js": "./static/js/main.5711fd0d.js",
+    "static/media/img_block4.png": "./static/media/img_block4.700c6974b264431b5182.png",
+    "static/media/slicers.png": "./static/media/slicers.bf907de88bbc52a38a71.png",
+    "static/media/graef_family_photo.jpg": "./static/media/graef_family_photo.50406272826849beb48c.jpg",
     "static/media/FuturaPT-DemiObl.ttf": "./static/media/FuturaPT-DemiObl.81bcbf3e6b14134bdfe5.ttf",
     "static/media/FuturaPT-LightObl.ttf": "./static/media/FuturaPT-LightObl.3ededb4d1e2635a6081f.ttf",
     "static/media/FuturaPT-BookObl.ttf": "./static/media/FuturaPT-BookObl.8625e1880022bc8a080c.ttf",
@@ -24,12 +27,13 @@
     "static/media/FuturaPTCond-Book.ttf": "./static/media/FuturaPTCond-Book.6f802bf60c545304b09e.ttf",
     "static/media/FuturaPT-Book.ttf": "./static/media/FuturaPT-Book.16ebcf48c36cedf12d82.ttf",
     "static/media/FuturaPTCond-Bold.ttf": "./static/media/FuturaPTCond-Bold.f8addf39fd173dd36f9f.ttf",
+    "static/media/sert_1.png": "./static/media/sert_1.dd3f0cc819c6f1f6ffe9.png",
     "index.html": "./index.html",
-    "main.01f1f143.css.map": "./static/css/main.01f1f143.css.map",
-    "main.141cdd51.js.map": "./static/js/main.141cdd51.js.map"
+    "main.59cf65fa.css.map": "./static/css/main.59cf65fa.css.map",
+    "main.5711fd0d.js.map": "./static/js/main.5711fd0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.01f1f143.css",
-    "static/js/main.141cdd51.js"
+    "static/css/main.59cf65fa.css",
+    "static/js/main.5711fd0d.js"
   ]
 }
