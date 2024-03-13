@@ -1,0 +1,22 @@
+.products {
+  justify-content: center;
+
+  .main-headers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+
+    h1,
+    h2 {
+      font-family: 'Futura Book' !important;
+      text-align: center;
+    }
+  }
+
+  .products-menu {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+}

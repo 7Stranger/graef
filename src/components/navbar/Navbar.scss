@@ -36,7 +36,7 @@
       border-top: 1px solid var(--logo-color);
     }
 
-    a {
+    span {
       position: relative;
       color: var(--text-color);
       text-transform: uppercase;
@@ -54,7 +54,7 @@
       }
 
       &:hover {
-        color: var(--logo-color);
+        color: var(--logo-color) !important;
       }
 
       &:hover:before {
@@ -79,5 +79,12 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+.active {
+  span {
+    color: var(--logo-color) !important;
+    font-weight: 700;
   }
 }

@@ -4,22 +4,23 @@ import Logo from '../../assets/png/logo-color.png';
 import {IoMenu} from 'react-icons/io5';
 import {IoMdClose} from 'react-icons/io';
 import { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = function () {
   const [showNav, setShowNav] = useState(false);
   return (
     <header className="navbar">
       <nav className="navbar-container wrapper">
-        <a href="#" className="navbar-logo" onClick={()=> setShowNav(false)}>
+        <Link to="/" className="navbar-logo" onClick={()=> setShowNav(false)}>
           <img src={Logo} alt="logo"/>
-        </a>
+        </Link>
 
         <ul className={`${showNav ? "show" : ""}`}>
           <li onClick={()=> setShowNav(false)}>
-            <a href="#">Products</a>
+            <NavLink to="products"><span>Products</span></NavLink>
           </li>
           <li onClick={()=> setShowNav(false)}>
-            <a href="#">About</a>
+            <NavLink to="about"><span>About</span></NavLink>
           </li>
         </ul>
 

@@ -1,0 +1,53 @@
+@import '../../../../styles/mixins.scss';
+
+.menu-item {
+  overflow: hidden;
+  cursor: pointer;
+  width: 24.7%;
+
+  img {
+    width: 100%;
+    transition: 0.7s;
+    display: block;
+
+    @include respond(phone) {
+      transform: scale(2);
+      transform-origin: bottom left;
+    }
+  }
+
+  img:hover {
+    transform: scale(1.1);
+    transform-origin: bottom left;
+  }
+
+  .title {
+    font-family: 'Futura Medium';
+    color: white;
+    position: relative;
+    z-index: 99;
+
+    @include respond(phone) {
+      display: none;
+    }
+
+    p {
+      font-size: 1.4rem;
+      position: absolute;
+      margin: 0.5rem;
+    }
+  }
+
+  .active {
+    position: absolute;
+    width: 100%;
+    background: rgb(75 71 255 / 30%);
+    box-shadow: inset -1px -1px 7px 2px;
+
+    img {
+      transform: scale(1.1);
+      transform-origin: bottom left;
+      opacity: 0.5;
+    }
+  }
+}

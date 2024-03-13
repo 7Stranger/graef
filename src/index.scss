@@ -203,6 +203,10 @@ h5 {
   color: var(--text-color);
 }
 
+a:-webkit-any-link {
+  color: var(--text-color);
+}
+
 .wrapper {
   max-width: 1440px;
   margin-inline: auto;
