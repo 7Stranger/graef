@@ -17,10 +17,10 @@ const Navbar = function () {
 
         <ul className={`${showNav ? "show" : ""}`}>
           <li onClick={()=> setShowNav(false)}>
-            <NavLink to="graef/products"><span>Products</span></NavLink>
+            <NavLink to="products"><span>Products</span></NavLink>
           </li>
           <li onClick={()=> setShowNav(false)}>
-            <NavLink to="graef/about"><span>About</span></NavLink>
+            <NavLink to="about"><span>About</span></NavLink>
           </li>
         </ul>
 
