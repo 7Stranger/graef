@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/graef/static/css/main.900a00da.css",
-    "main.js": "/graef/static/js/main.85db01ba.js",
+    "main.js": "/graef/static/js/main.ae681261.js",
     "static/media/img_block4.png": "/graef/static/media/img_block4.700c6974b264431b5182.png",
     "static/media/slicers.png": "/graef/static/media/slicers.bf907de88bbc52a38a71.png",
     "static/media/graef_family_photo.jpg": "/graef/static/media/graef_family_photo.50406272826849beb48c.jpg",
@@ -34,10 +34,10 @@
     "static/media/sert_1.png": "/graef/static/media/sert_1.dd3f0cc819c6f1f6ffe9.png",
     "index.html": "/graef/index.html",
     "main.900a00da.css.map": "/graef/static/css/main.900a00da.css.map",
-    "main.85db01ba.js.map": "/graef/static/js/main.85db01ba.js.map"
+    "main.ae681261.js.map": "/graef/static/js/main.ae681261.js.map"
   },
   "entrypoints": [
     "static/css/main.900a00da.css",
-    "static/js/main.85db01ba.js"
+    "static/js/main.ae681261.js"
   ]
 }
